@@ -1,0 +1,41 @@
+{
+  "name": "wowprojs",
+  "title": "WOWPRO",
+  "version": "1.0.0",
+  "description": "基于wowjs开发，适配DOM滚动情景",
+  "keywords": [],
+  "homepage": "",
+  "author": {
+    "name": "JyLie",
+    "url": "https://github.com/liejiayong"
+  },
+  "main": "./dist/wow.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liejiayong/WOW-PRO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liejiayong/WOW-PRO/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "https://github.com/liejiayong"
+    }
+  ],
+  "dependencies": {
+    "animate.css": "latest"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-contrib-jasmine": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-growl": "latest"
+  },
+  "scripts": {
+    "test": "grunt travis"
+  }
+}
